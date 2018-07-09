@@ -2,13 +2,13 @@ require "pry"
 
 class Hash
   def keys_of(arguments)
-  arr = []
+  what_u_want = []
     # arr << self.key(arguments)
     self.each do |animal, location|
       if location == arguments
-        arr << animal
+        what_u_want << animal
       end
     end
   end
-  arr
+  what_u_want
 end
