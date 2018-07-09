@@ -11,7 +11,7 @@ require "pry"
 class Hash
   def keys_of(arguments)
   arr = []
-    self.key(arguments)
+    self.map do |x, y|
     binding.pry
   end
 end
