@@ -10,7 +10,7 @@ class Hash
   end
   if others.size
     self.each do |keys_in_hash, vals_in_hash|
-      # binding.pry
+      binding.pry
       if vals_in_hash == others.join
         what_u_want << keys_in_hash
       end
