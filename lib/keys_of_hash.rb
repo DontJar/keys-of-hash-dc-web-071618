@@ -5,4 +5,5 @@ class Hash
   arr = []
     arr << self.key(arguments)
   end
+  binding.pry
 end
