@@ -2,15 +2,15 @@ describe 'keys_of' do
 
   let(:animals) { {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tortoise"=>"Panama","kangaroo"=> "Australia","tomato frog"=>"Madagascar","koala"=>"Australia"} }
 
-  # it "returns an array" do
-  #   expect(animals.keys_of('Panama').class).to eq(Array)
-  # end
-  #
-  # it "returns red-footed tortoise in an array for the animal hash when passed the argument 'Panama'" do
-  #   result = animals.keys_of('Panama')
-  #   expect(result).to include("red-footed tortoise")
-  #   expect(result.length).to eq(1)
-  # end
+  it "returns an array" do
+    expect(animals.keys_of('Panama').class).to eq(Array)
+  end
+
+  it "returns red-footed tortoise in an array for the animal hash when passed the argument 'Panama'" do
+    result = animals.keys_of('Panama')
+    expect(result).to include("red-footed tortoise")
+    expect(result.length).to eq(1)
+  end
 
   it "returns two species in an array for the animal hash when passed the argument 'Madagascar'" do
     result = animals.keys_of('Madagascar')
