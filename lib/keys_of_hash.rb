@@ -7,8 +7,8 @@ class Hash
     self.each do |animal, location|
       if location == arguments
         arr << animal
+binding.pry
       end
     end
-    # binding.pry
   end
 end
