@@ -10,6 +10,6 @@ class Hash
 
 
     arr << self[arguments]
-    # binding.pry
+    binding.pry
   end
 end
