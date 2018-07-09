@@ -12,7 +12,6 @@ class Hash
   def keys_of(arguments)
   arr = []
     self
-    end
     binding.pry
   end
 end
