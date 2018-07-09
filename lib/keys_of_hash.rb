@@ -11,7 +11,7 @@ class Hash
   if others.size
     self.each do |keys_in_hash, vals_in_hash|
       binding.pry
-      if vals_in_hash == others.join
+      if vals_in_hash == others.join.to_i
         what_u_want << keys_in_hash
       end
     end
