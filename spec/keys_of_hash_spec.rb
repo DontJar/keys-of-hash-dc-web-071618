@@ -36,7 +36,7 @@ describe 'keys_of' do
   #   [:a, :d].each { |key| expect(result).to include(key) }
   #   expect(result.length).to eq(2)
   # end
-  # 
+  #
   # it 'can accept multiple arguments (values) and return the keys that match one value or the other' do
   #   result_1 = animals.keys_of('Australia', 'Panama')
   #   matched_keys = ["sugar glider", "kangaroo", "koala", "red-footed tortoise"]
