@@ -3,10 +3,8 @@ require "pry"
 class Hash
   def keys_of(arguments)
   arr = []
-    self.map do |x|
-      # if x.fetch
+    arr << self.key(arguments)
       end
-    # arr << self[arguments]
     binding.pry
   end
 end
