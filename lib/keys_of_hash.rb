@@ -4,7 +4,6 @@ class Hash
   def keys_of(arguments)
   arr = []
     arr << self.key(arguments)
-arr
-    # binding.pry
+    binding.pry
   end
 end
