@@ -1,9 +1,9 @@
 require "pry"
 
 class Hash
-  def keys_of_hash(arguments, *)
+  def keys_of(arguments, *)
     arr = []
     arr << :animals[arguments]
-    binding.pry
+    # binding.pry
   end
 end
