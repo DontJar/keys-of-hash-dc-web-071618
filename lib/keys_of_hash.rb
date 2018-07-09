@@ -12,6 +12,7 @@ class Hash
   def keys_of(arguments)
   arr = []
     self.map do |x, y|
+    end
     binding.pry
   end
 end
