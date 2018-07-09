@@ -8,5 +8,5 @@ class Hash
       end
     arr << self[arguments]
     binding.pry
-  # end
+  end
 end
