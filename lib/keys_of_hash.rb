@@ -9,7 +9,7 @@ binding.pry
       what_u_want << keys_in_hash
     end
   end
-  if others.size >0
+  if others.size #>0
     self.each do |keys_in_hash, vals_in_hash|
       if vals_in_hash == others.join
         what_u_want << keys_in_hash
