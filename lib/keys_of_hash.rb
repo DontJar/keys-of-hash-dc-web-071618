@@ -5,8 +5,8 @@ class Hash
   arr = []
     self.map do |x|
       if x.fetch
-      # end
+      end
     arr << self[arguments]
     binding.pry
-  end
+  # end
 end
