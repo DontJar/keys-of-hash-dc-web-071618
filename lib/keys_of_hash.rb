@@ -4,9 +4,9 @@ class Hash
   def keys_of(arguments)
   what_u_want = []
     # arr << self.key(arguments)
-  self.each do |animal, location|
-    if location == arguments
-      what_u_want << animal
+  self.each do |keys_in_hash, vals_in_hash|
+    if vals_in_hash == arguments
+      what_u_want << keys_in_hash
     end
   end
   what_u_want
