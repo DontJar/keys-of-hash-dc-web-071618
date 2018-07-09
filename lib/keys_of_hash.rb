@@ -3,7 +3,7 @@ require "pry"
 class Hash
   def keys_of(arguments, *)
     arr = []
-    arr << :animals[animals]
+    arr << :animals[arguments]
     # binding.pry
   end
 end
