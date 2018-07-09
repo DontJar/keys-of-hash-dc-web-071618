@@ -37,7 +37,7 @@ describe 'keys_of' do
   #   expect(result.length).to eq(2)
   # end
   #
-  # it 'can accept multiple arguments (values) and return the keys that match one value or the other' do
+  it 'can accept multiple arguments (values) and return the keys that match one value or the other' do
   #   result_1 = animals.keys_of('Australia', 'Panama')
   #   matched_keys = ["sugar glider", "kangaroo", "koala", "red-footed tortoise"]
   #   matched_keys.each {|a| expect(result_1).to include(a) }
