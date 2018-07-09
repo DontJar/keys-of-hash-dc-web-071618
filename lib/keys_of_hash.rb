@@ -9,5 +9,6 @@ class Hash
       what_u_want << animal
     end
   end
+end
   what_u_want
 end
