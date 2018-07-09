@@ -3,7 +3,7 @@ require "pry"
 class Hash
   def keys_of(arguments)
   arr = []
-    arr << self.each.key(arguments)
+    arr << self.key.each(arguments)
     # binding.pry
   end
 end
